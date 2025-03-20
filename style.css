@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Bytesized&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  padding-top: 400px;
+}
+
+.timer {
+  width: 250px;
+  height: 250px;
+  background-color: red;
+  position: relative;
+}
+
+.timer-hours {
+  background-color: aqua;
+}
+
+.timer-minutes {
+  background-color: aqua;
+}
+
+.timer-seconds {
+  background-color: aqua;
+}
+
+.timer-hours h2 {
+  font-family: "Bytesized", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.timer-minutes h2 {
+  font-family: "Bytesized", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.timer-seconds h2 {
+  font-family: "Bytesized", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.too {
+  font-size: 130px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Bytesized", sans-serif;
+  transform: translateY(20px);
+}
+
+.am-pm {
+  width: 100px;
+  margin-top: 180px;
+  background-color: aqua;
+}
+
+.am-pm {
+  font-size: 50px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Bytesized", sans-serif;
+}
